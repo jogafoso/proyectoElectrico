@@ -52,27 +52,27 @@ class animacionDoss(Scene):
         t13 = Text('Evento C: No enfermo P(C)=10%', color=BLACK).scale(0.6).shift(LEFT*4, DOWN*3.5)
 
 
-        t11a = Text('P(A)=70%', color=BLACK).scale(0.6).shift(LEFT*4, UP*2.5)
-        t12a = Text('P(B)=20%', color=BLACK).scale(0.6).shift(LEFT*5.5)
-        t13a = Text('P(C)=10%', color=BLACK).scale(0.6).shift(LEFT*4, DOWN*3.5)
+        t11a = MathTex("P(A)=70\\%", color=BLACK).scale(0.75).shift(LEFT*4, UP*2.5)
+        t12a = MathTex("P(B)=20\\%", color=BLACK).scale(0.75).shift(LEFT*5.5)
+        t13a = MathTex("P(C)=10\\%", color=BLACK).scale(0.75).shift(LEFT*4, DOWN*3.5)
 
         
         t14 = Text('Sea P(D) la probabilidad de error en la prueba', color=BLACK).scale(0.6).shift(LEFT*3, UP*3.5)
-        t15 = Text('P(D|A) = 1%', color=BLACK).scale(0.6).shift(RIGHT*4, UP*3.5)
-        t16 = Text('P(D|B) = 10%', color=BLACK).scale(0.6).shift(RIGHT*4, UP*0.7)
-        t17 = Text('P(D|C) = 5%', color=BLACK).scale(0.6).shift(RIGHT*4, DOWN*2)
+        t15 = MathTex("P(D|A) = 1\\%", color=BLACK).scale(0.75).shift(RIGHT*4, UP*3.5)
+        t16 = MathTex("P(D|B) = 10\\%", color=BLACK).scale(0.75).shift(RIGHT*4, UP*0.7)
+        t17 = MathTex("P(D|C) = 5\\%", color=BLACK).scale(0.75).shift(RIGHT*4, DOWN*2)
 
         eqt15=MathTex("\\overline{P(D|A)} = 99\\%", color=BLACK).scale(0.75).shift(RIGHT*4, UP*2)
         eqt16=MathTex("\\overline{P(D|B)} = 90\\%", color=BLACK).scale(0.75).shift(RIGHT*4, UP*-0.7)
         eqt17=MathTex("\\overline{P(D|C)} = 95\\%", color=BLACK).scale(0.75).shift(RIGHT*4, DOWN*3.5)
 
-        t15new = Text('P(D|A) = 1%', color=BLACK).scale(0.6).shift(RIGHT*5, UP*3.5)
-        t16new = Text('P(D|B) = 10%', color=BLACK).scale(0.6).shift(RIGHT*5, UP*3)
-        t17new = Text('P(D|C) = 5%', color=BLACK).scale(0.6).shift(RIGHT*5, UP*2.5)
+        t15new = MathTex("P(D|A) = 1\\%", color=BLACK).scale(0.75).shift(RIGHT*5, UP*3.5)
+        t16new = MathTex("P(D|B) = 10\\%", color=BLACK).scale(0.75).shift(RIGHT*5, UP*3)
+        t17new = MathTex("P(D|C) = 5\\%", color=BLACK).scale(0.75).shift(RIGHT*5, UP*2.5)
 
-        t11new = Text('P(A)=70%', color=BLACK).scale(0.6).shift(RIGHT*5, UP*2)
-        t12new = Text('P(B)=20%', color=BLACK).scale(0.6).shift(RIGHT*5, UP*1.5)
-        t13new = Text('P(C)=10%', color=BLACK).scale(0.6).shift(RIGHT*5, UP*1)
+        t11new = MathTex("P(A)=70\\%", color=BLACK).scale(0.75).shift(RIGHT*5, UP*2)
+        t12new = MathTex("P(B)=20\\%", color=BLACK).scale(0.75).shift(RIGHT*5, UP*1.5)
+        t13new = MathTex("P(C)=10\\%", color=BLACK).scale(0.75).shift(RIGHT*5, UP*1)
 
         t18 = Text('¿Cuál es la probabilidad de que exista un error en una persona no enferma?', color=BLACK).scale(0.6)
         t19 = Text('Por el teorema de Bayes:', color=BLACK).scale(0.6)
