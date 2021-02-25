@@ -132,3 +132,5 @@ class animacionCuatro(GraphScene):
         self.play(Transform(t3,t6))
         self.wait(3)
 
+        #Se termina la configuración de ejes 
+        self.setup_axes(animate=False)
